@@ -40,7 +40,7 @@ function makeCalculator() {
       return this;
     },
 
-    reset(n) {
+    reset() {
       this.result = 0;
 
       return this;
